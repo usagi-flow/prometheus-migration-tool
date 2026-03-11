@@ -327,7 +327,7 @@ func getDefaultClientConfig(url string) utils.ClientConfig {
 func parseArgs(args []string) (shouldProceed bool) {
 	shouldProceed = true // Some flags like 'version' are just to get information and not proceed the actual execution. We should stop in such cases.
 	for _, f := range args {
-		f = f[1:]
+		f = strings.TrimLeft(f, "-")
 		switch f {
 		case "version":
 			shouldProceed = false
