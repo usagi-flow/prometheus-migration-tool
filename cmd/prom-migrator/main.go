@@ -18,11 +18,11 @@ import (
 
 	"github.com/prometheus/prometheus/model/labels"
 	"github.com/prometheus/prometheus/promql/parser"
-	"github.com/timescale/promscale/migration-tool/pkg/log"
-	plan "github.com/timescale/promscale/migration-tool/pkg/planner"
-	"github.com/timescale/promscale/migration-tool/pkg/reader"
-	"github.com/timescale/promscale/migration-tool/pkg/utils"
-	"github.com/timescale/promscale/migration-tool/pkg/writer"
+	"github.com/usagi-flow/prometheus-migration-tool/pkg/log"
+	plan "github.com/usagi-flow/prometheus-migration-tool/pkg/planner"
+	"github.com/usagi-flow/prometheus-migration-tool/pkg/reader"
+	"github.com/usagi-flow/prometheus-migration-tool/pkg/utils"
+	"github.com/usagi-flow/prometheus-migration-tool/pkg/writer"
 )
 
 const (

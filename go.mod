@@ -1,4 +1,4 @@
-module github.com/timescale/promscale/migration-tool
+module github.com/usagi-flow/prometheus-migration-tool
 
 go 1.17
 

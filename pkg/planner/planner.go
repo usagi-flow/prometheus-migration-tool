@@ -17,8 +17,8 @@ import (
 	"github.com/prometheus/common/config"
 	"github.com/prometheus/prometheus/model/labels"
 	"github.com/prometheus/prometheus/model/timestamp"
-	"github.com/timescale/promscale/migration-tool/pkg/log"
-	"github.com/timescale/promscale/migration-tool/pkg/utils"
+	"github.com/usagi-flow/prometheus-migration-tool/pkg/log"
+	"github.com/usagi-flow/prometheus-migration-tool/pkg/utils"
 )
 
 const numStepsWriter = 5 // Number of progress steps for the progress-bar of the writer.

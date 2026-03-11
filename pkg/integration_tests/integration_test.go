@@ -10,10 +10,10 @@ import (
 	"time"
 
 	"github.com/prometheus/common/config"
-	plan "github.com/timescale/promscale/migration-tool/pkg/planner"
-	"github.com/timescale/promscale/migration-tool/pkg/reader"
-	"github.com/timescale/promscale/migration-tool/pkg/utils"
-	"github.com/timescale/promscale/migration-tool/pkg/writer"
+	plan "github.com/usagi-flow/prometheus-migration-tool/pkg/planner"
+	"github.com/usagi-flow/prometheus-migration-tool/pkg/reader"
+	"github.com/usagi-flow/prometheus-migration-tool/pkg/utils"
+	"github.com/usagi-flow/prometheus-migration-tool/pkg/writer"
 )
 
 var (

@@ -16,8 +16,8 @@ import (
 	"github.com/prometheus/prometheus/prompb"
 	"github.com/prometheus/prometheus/storage/remote"
 
-	"github.com/timescale/promscale/migration-tool/pkg/log"
-	"github.com/timescale/promscale/migration-tool/pkg/utils"
+	"github.com/usagi-flow/prometheus-migration-tool/pkg/log"
+	"github.com/usagi-flow/prometheus-migration-tool/pkg/utils"
 )
 
 // shardsSet represents a set of shards. It consists of configuration related

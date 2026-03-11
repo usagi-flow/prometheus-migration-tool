@@ -13,7 +13,7 @@ import (
 	"github.com/prometheus/prometheus/model/labels"
 	"github.com/prometheus/prometheus/prompb"
 
-	"github.com/timescale/promscale/migration-tool/pkg/log"
+	"github.com/usagi-flow/prometheus-migration-tool/pkg/log"
 )
 
 const (

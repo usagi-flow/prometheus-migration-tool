@@ -11,9 +11,9 @@ import (
 	"github.com/prometheus/common/config"
 	"github.com/prometheus/prometheus/model/labels"
 
-	"github.com/timescale/promscale/migration-tool/pkg/log"
-	plan "github.com/timescale/promscale/migration-tool/pkg/planner"
-	"github.com/timescale/promscale/migration-tool/pkg/utils"
+	"github.com/usagi-flow/prometheus-migration-tool/pkg/log"
+	plan "github.com/usagi-flow/prometheus-migration-tool/pkg/planner"
+	"github.com/usagi-flow/prometheus-migration-tool/pkg/utils"
 )
 
 // Config is config for reader.
